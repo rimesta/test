@@ -9,5 +9,5 @@ if (c[i,j] < cmax)
 }
 Tmax0 = n * cmax
 tita1 = 1/Tmax0
-epsilon = 0.0001
+epsilon = 0.05
 
