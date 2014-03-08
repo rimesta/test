@@ -1,0 +1,13 @@
+ParetoSet:= {};
+l:=0;
+cmax:= c[0,0];
+for(i=1;i<n;i++)
+ for(j=1;j<n;j++)
+{
+if (c[i,j] < cmax)
+  cmax = c[i,j];
+}
+Tmax0 = n * cmax
+tita1 = 1/Tmax0
+epsilon = 0.0001
+
